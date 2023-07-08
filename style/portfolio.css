@@ -55,10 +55,15 @@ nav div {
 
 header {}
 
+main section {
+    margin-top: 130px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
-main{
+
+main {
     width: 1140px;
     margin: 0px auto;
 }
@@ -92,7 +97,7 @@ main{
 
 .about {
     padding: 150px;
-    margin: 140px 0 ;
+    margin: 140px 0;
     background-color: beige;
 }
 
@@ -112,13 +117,74 @@ main{
     text-align: center;
     font-size: 18px;
 }
-.info-con{
+
+.info-con {
     display: flex;
 }
-.about-info{
-    margin: 30px;
+
+.about-info {
+    margin: 20px;
     text-align: center;
 }
-.info-description{
-    font-weight: 800;
+
+.info-title {
+    color: #474747;
+}
+
+.info-description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+#what-i-do {
+    padding: 30px 150px;
+}
+
+.skill-con {
+    display: flex;
+    gap: 30px;
+}
+
+.skill {
+    padding: 30px;
+
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.sill-title {
+    margin: 10px;
+    font-size: 20px;
+
+
+}
+
+.resume-column-title {
+    color: black;
+margin-bottom: 30px;
+    font-size: 30px;
+
+    font-weight: 700;
+
+}
+
+.resume-con {
+    display: flex;
+    gap: 70px;
+    margin: 50px;
+}
+
+.resume-item-info{
+    color:  #757575;
+    padding: 10px;
+}
+.resume-description{color:  #757575;padding: 10px;
+
+}
+.download{
+    text-align: center;
+    margin-top: 50px;
 }
